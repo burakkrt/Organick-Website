@@ -2,5 +2,5 @@ LICANSE
 # Packages
 node_modules
 
-assets/css/style.css
-assets/css/style.css.map
+/css/style.css
+/css/style.css.map
