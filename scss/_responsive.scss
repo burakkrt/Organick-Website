@@ -1,0 +1,12 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 991.98px) {
+  .footer-content {
+    align-items: center;
+    margin: 2rem 0;
+    padding: 0;
+    border: none;
+    p {
+      text-align: center;
+    }
+  }
+}
