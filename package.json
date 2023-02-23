@@ -1,6 +1,27 @@
 {
+  "name": "organick-website",
+  "description": "The website of a company that sells organic products. Responsive design, AI UI, Bootstrap, Git, HTML5, CSS3, Javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass scss/main.scss --watch assets/css/style.css --style compressed"
+  },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "node": "^19.6.0"
-  }
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakkrt/Organick-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burakkrt/Organick-Website/issues"
+  },
+  "homepage": "https://github.com/burakkrt/Organick-Website#readme"
 }
