@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/main.scss","../../scss/_responsive.scss"],"names":[],"mappings":"AAEA,gBACE,yBAGF,EACE,cAGF,WACE,yBCVF,4BACE,gBACE,mBACA,cACA,UACA,kBACE,kBAEF,kBACE","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/_veriables.scss","../../scss/main.scss","../../scss/_responsive.scss"],"names":[],"mappings":"AAEA,eACE,oCCDF,gBACE,yBAGF,EACE,cAGF,WACE,yBAGF,WACE,aACA,wBACE,gCACA,0BACE,oEClBN,4BACE,gBACE,mBACA,cACA,UACA,kBACE,kBAEF,kBACE","file":"style.css"}
