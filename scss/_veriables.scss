@@ -1,11 +1,10 @@
-$--button-bg-color: #274c5b;
 $--bg-clean-green: #eff6f1;
 $--bg-dark-blue: #274c5b;
 $--stars-color: #ffb84c;
 $--bg-products-card: #f9f8f8;
 
 .figma-bg-dark {
-  background-color: $--button-bg-color !important;
+  background-color: $--bg-dark-blue !important;
 }
 
 .bg-clean-green {
@@ -22,4 +21,8 @@ i {
 
 .mt-spaces {
   margin-top: 10rem;
+}
+
+.products-name {
+  color: $--bg-dark-blue;
 }

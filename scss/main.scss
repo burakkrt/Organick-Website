@@ -18,7 +18,10 @@
 .product-card{
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: auto;
+  background-color: $--bg-products-card!important;
+  background-blend-mode:multiply;
+  border: none!important;
 }
 
 @import "responsive";
