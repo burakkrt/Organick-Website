@@ -15,4 +15,25 @@
   color: $--stars-color;
 }
 
+.hand-text {
+  color: #7EB693;
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  line-height: 50px
+}
+
+.title-text {
+  font-family: 'Roboto', sans-serif;
+  color: #274c5b;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 58.59px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #525C60;
+}
 @import "responsive";
