@@ -1,5 +1,19 @@
 $--button-bg-color: #274c5b;
+$--bg-clean-green: #eff6f1;
+$--bg-dark-blue: #274c5b;
 
 .figma-bg-dark {
   background-color: $--button-bg-color !important;
+}
+
+.bg-clean-green {
+  background-color: $--bg-clean-green !important;
+}
+
+.bg-dark-blue {
+  background-color: $--bg-dark-blue !important;
+}
+
+i {
+  color: $--bg-dark-blue;
 }
