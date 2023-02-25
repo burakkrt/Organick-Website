@@ -1,1 +1,12 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/_veriables.scss","../../scss/main.scss","../../scss/_responsive.scss"],"names":[],"mappings":"AAIA,eACE,oCAGF,gBACE,oCAGF,cACE,oCAGF,EACE,MAfe,mBCCf,aACA,wBACE,gCACA,0BACE,oEAMN,iBACE,aAGF,mBACE,gCACA,gBACA,eACA,oBACA,cCrBF,4BACE,gBACE,mBACA,cACA,UACA,kBACE,kBAEF,kBACE","file":"style.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../../scss/_veriables.scss",
+    "../../scss/main.scss",
+    "../../scss/_responsive.scss"
+  ],
+  "names": [],
+  "mappings": "AAKA,eACE,oCAGF,gBACE,oCAGF,cACE,oCAGF,EACE,MAhBe,mBCCf,aACA,wBACE,gCACA,0BACE,oEAMN,iBACE,MDXc,QEFhB,4BACE,gBACE,mBACA,cACA,UACA,kBACE,kBAEF,kBACE",
+  "file": "style.css"
+}
