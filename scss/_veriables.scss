@@ -1,8 +1,10 @@
 $--bg-clean-green: #eff6f1;
 $--bg-dark-blue: #274c5b;
 $--stars-color: #ffb84c;
-$--bg-products-card: #f9f8f8;
+$--yellow-color: #efd372;
 $--yellowtail-text: #7eb693;
+$--backgroud-grey-figma: #c4c4c4;
+$--bg-white: #ffffff;
 
 .text-dark-blue {
   color: $--bg-dark-blue !important;
@@ -40,4 +42,20 @@ i {
 
 .bg-shadow {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background-image-figma {
+  background: $--backgroud-grey-figma;
+}
+
+.bg-white {
+  background-color: $--bg-white;
+}
+
+.text-yellow {
+  color: $--yellow-color;
+}
+
+.bg-yellow {
+  background-color: $--yellow-color !important;
 }
