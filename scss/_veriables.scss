@@ -2,9 +2,10 @@ $--bg-clean-green: #eff6f1;
 $--bg-dark-blue: #274c5b;
 $--stars-color: #ffb84c;
 $--bg-products-card: #f9f8f8;
+$--yellowtail-text: #7eb693;
 
-.figma-bg-dark {
-  background-color: $--bg-dark-blue !important;
+.text-dark-blue {
+  color: $--bg-dark-blue !important;
 }
 
 .bg-clean-green {
@@ -25,4 +26,18 @@ i {
 
 .products-name {
   color: $--bg-dark-blue;
+}
+
+.yellowtail-title {
+  font-family: "Yellowtail", cursive;
+  color: $--yellowtail-text;
+  font-size: 36px;
+}
+
+.text-shadow {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.bg-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
