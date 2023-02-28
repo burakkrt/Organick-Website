@@ -22,11 +22,48 @@
 
 <body>
 
+    <nav class="row d-flex mt-5">
+        <div class="header-1 col-8 d-flex justify-content-evenly">
+            <div class="logo">
+                <img src="assets/image/organick-website-logo.svg" alt="">
+            </div>
+            <div class="menu align-self-end">
+                <ul class="d-flex">
+                    <li class="mx-3"><a class="text-dark-blue fw-bold" href="#">Home</a></li>
+                    <li class="mx-3"><a class="text-dark-blue fw-bold" href="#">About</a></li>
+                    <li class="mx-3"><a class="text-dark-blue fw-bold" href="#">Pages</a></li>
+                    <li class="mx-3"><a class="text-dark-blue fw-bold" href="#">Shop</a></li>
+                    <li class="mx-3"><a class="text-dark-blue fw-bold" href="#">Projects</a></li>
+                    <li class="ms-3"><a class="text-dark-blue fw-bold" href="#">News</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-2 col-4 d-flex align-self-center justify-content-start ">
+            <div class="search bg-clean-green rounded-5">
+                <form class="rounded-4 p-2">
+                    <input class="border-0 bg-clean-green" type="text" width="26" height="26" name="search"
+                        id="search">
+                    <label for="search p-5"><i class="bi bi-search rounded-5 search-button p-2 fs-5 bg-success  text-white"></i></label>
+                </form>
+            </div>
+            <div class="add-packet d-flex align-items-center ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="16" height="16" class="bg-dark-blue text-white p-3 rounded-5 flex-shrink-1"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                </svg>
+                <span class="ms-2 flex-shrink-2 w-100 text-dark-blue fw-semibold">Cart(0)</span>
+            </div>
+        </div>
+
+    </nav>
+
     <main class="container">
         <section class="bg-light mt-spaces">
             <div class="container">
                 <div class="row">
-                    <img class="col-12 col-sm-12 col-md-12 col-lg-42 col-lg-6 col-xl-6" src="assets/image/Photo (6).png" alt="">
+                    <img class="col-12 col-sm-12 col-md-12 col-lg-42 col-lg-6 col-xl-6" src="assets/image/Photo (6).png"
+                        alt="">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-42 col-lg-6 col-xl-6 p-5">
                         <div class="about-us-info">
                             <h5 class="yellowtail-title">About us</h5>
@@ -64,33 +101,37 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn text-center bg-dark-blue text-white justify-content-md-end rounded-3 p-3">Shop Now
+                        <button
+                            class="btn text-center bg-dark-blue text-white justify-content-md-end rounded-3 p-3">Shop
+                            Now
                             <i class="bi bi-arrow-right text-white"></i>
                         </button>
                     </div>
                 </div>
             </div>
         </section>
-
-
         <section class="mt-spaces organic-products-bg-color">
             <div class="row d-flex">
                 <div class="col-sm-12 col-md-6 col-lg-4  my-5 position-relative">
                     <img src="assets/image/organic-juice.png" class="card-img-top img-fluid h-100" alt="">
-                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' " class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Organic Juice</button>
+                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' "
+                        class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Organic
+                        Juice</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 my-5 position-relative">
                     <img src="assets/image/organic-food.png" class="card-img-top img-fluid h-100" alt="">
-                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' " class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Organic Food</button>
+                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' "
+                        class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Organic
+                        Food</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 my-5 position-relative">
                     <img src="assets/image/nuts-cookies.png" class="card-img-top img-fluid h-100" alt="">
-                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' " class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Nuts Cookie</button>
+                    <button style="font-weight: 500; font-size: 20px; font-family:'Roboto' "
+                        class="btn btn-light text-center rounded-4 p-3 position-absolute  top-50 start-50 translate-middle">Nuts
+                        Cookie</button>
                 </div>
             </div>
         </section>
-
-
         <section class="mt-spaces">
             <div class="row">
                 <div class="col-xl-6 col-lg-8 col-sm-12 text-center text-md-start">
