@@ -5,6 +5,7 @@ $--yellow-color: #efd372;
 $--yellowtail-text: #7eb693;
 $--backgroud-grey-figma: #c4c4c4;
 $--bg-white: #ffffff;
+$--bg-product-card-white: #f9f8f8;
 
 .text-dark-blue {
   color: $--bg-dark-blue !important;
@@ -58,6 +59,10 @@ i {
 
 .text-yellow {
   color: $--yellow-color;
+}
+
+.bg-yellow {
+  background-color: $--yellow-color;
 }
 
 .bg-yellow {

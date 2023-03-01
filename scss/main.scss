@@ -4,4 +4,14 @@
   color: $--stars-color;
 }
 
+.product-cards {
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-blend-mode: multiply !important;
+  max-width: 335px !important;
+  height: 483px !important;
+  background-color: $--bg-product-card-white !important;
+}
+
 @import "responsive";
