@@ -6,6 +6,7 @@ $--yellowtail-text: #7eb693;
 $--backgroud-grey-figma: #c4c4c4;
 $--bg-white: #ffffff;
 $--bg-product-card-white: #f9f8f8;
+$--dark-blue-testimonial-user-comment: #525C60;
 
 .text-dark-blue {
   color: $--bg-dark-blue !important;
@@ -67,4 +68,24 @@ i {
 
 .bg-yellow {
   background-color: $--yellow-color !important;
+}
+
+.bg-testimonial-chart{
+  background: #F1F1F1;
+  border: 6px solid #FCFCFC;
+  outline: 4px solid #7EB693;
+}
+
+.testimonial-user-comment-text{
+color:$--dark-blue-testimonial-user-comment;
+}
+
+.testimonial-slider-button{
+background-color: $--backgroud-grey-figma!important;
+width: 8px!important;
+height: 8px!important;
+}
+
+.testimonial-slider-button.active{
+  background-color: $--bg-dark-blue!important;
 }
