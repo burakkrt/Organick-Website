@@ -20,6 +20,95 @@
 
 <body>
 
+    <nav class="navbar fixed-top">
+        <div class="container py-4">
+            <div class="d-flex w-100 justify-content-between align-items-center ">
+                <div>
+                    <div class="d-flex justify-content-between align-items-center gap-5">
+                        <span class="me-5"><img src="assets/image/organick-website-logo.svg" alt="organick-website-logo"></span>
+                        <ul class="navbar-nav d-flex flex-row fw-semibold gap-4">
+                            <li class="nav-item">
+                            <a class="nav-link text-dark-blue active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark-blue" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark-blue" href="#">Shop</a>
+                                </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-dark-blue dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu position-absolute">
+                                    <li><a class="dropdown-item" href="#">Service</a></li>
+                                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark-blue" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark-blue" href="#">News</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="d-inline-flex" role="search" >
+                        <div class="position-relative">
+                            <input class="form-control rounded-pill px-4 fs-5 text-dark-blue" type="search" aria-label="Search" style="padding: 9px 0; background-color: #FAFAFA; min-width: 376px;">
+                            <i role="button" tabindex="0" class="fa-solid fa-magnifying-glass position-absolute translate-middle top-50 rounded-circle" style="color: #FAFAFA; background-color: #7EB693; right: -15px; padding: 12px;"></i>
+                        </div>
+                    </form>
+                    <div role="button" tabindex="0" class="d-inline-block rounded-pill border py-1 ps-1 pe-3">
+                        <i class="fa-solid fa-cart-shopping text-white bg-dark-blue rounded-circle" style="padding: 12px;"></i>
+                        <span>Cart (0)</span>
+                    </div>
+                </div>
+                <div class="d-none">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
         <section class="container-fuild">
             <div class="banner d-flex flex-row align-items-center" style="background-color: #F1EFF0; background-image: url(assets/image/banner-bg.png), url(assets/image/banner-bg-parrents.png);background-position: right; background-size: contain; background-repeat: no-repeat; background-blend-mode: multiply;">
@@ -32,7 +121,6 @@
                 </div>
             </div>
         </section>
-
         <section class="container mt-spaces">
             <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4" style="min-height: 376px;">
                 <div class="position-relative">
