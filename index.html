@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,16 +16,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&family=Yellowtail&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
 
     <nav class="navbar fixed-top">
-        <div class="container py-4">
+        <div class="container py-2 py-xl-4">
             <div class="d-flex w-100 justify-content-between align-items-center ">
                 <div>
-                    <div class="d-flex justify-content-between align-items-center gap-5">
-                        <span class="me-5"><img src="assets/image/organick-website-logo.svg" alt="organick-website-logo"></span>
-                        <ul class="navbar-nav d-flex flex-row fw-semibold gap-4">
+                    <div class="d-flex justify-content-between align-items-center gap-0 gap-xl-5">
+                        <span role="button" tabindex="0" class="me-0 me-xl-5"><img src="assets/image/organick-website-logo.svg" class="logo" alt="organick-website-logo"></span>
+                        <ul class="navbar-nav d-flex flex-row fw-semibold gap-4 d-none d-xl-flex">
                             <li class="nav-item">
                             <a class="nav-link text-dark-blue active" aria-current="page" href="#">Home</a>
                             </li>
@@ -56,19 +54,19 @@
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <form class="d-inline-flex" role="search" >
+                <div class="d-none d-sm-flex ms-auto ms-xl-0 me-4 me-xl-0">
+                    <form class="d-sm-none d-md-block me-1 me-xl-2" role="search" >
                         <div class="position-relative">
                             <input class="form-control rounded-pill px-4 fs-5 text-dark-blue" type="search" aria-label="Search" style="padding: 9px 0; background-color: #FAFAFA; min-width: 376px;">
                             <i role="button" tabindex="0" class="fa-solid fa-magnifying-glass position-absolute translate-middle top-50 rounded-circle" style="color: #FAFAFA; background-color: #7EB693; right: -15px; padding: 12px;"></i>
                         </div>
                     </form>
-                    <div role="button" tabindex="0" class="d-inline-block rounded-pill border py-1 ps-1 pe-3">
+                    <div role="button" tabindex="0" class="d-block rounded-pill border py-1 ps-1 pe-3">
                         <i class="fa-solid fa-cart-shopping text-white bg-dark-blue rounded-circle" style="padding: 12px;"></i>
                         <span>Cart (0)</span>
                     </div>
                 </div>
-                <div class="d-none">
+                <div class="d-block d-xl-none">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -840,7 +838,6 @@
                 by <b>BeCompany</b></p>
         </div>
     </footer>
-
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
