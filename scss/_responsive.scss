@@ -1,36 +1,16 @@
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
 // Mini devices (landscape phones, 576px and up)
 @media (max-width: 575.98px) {
-    .banner{
-        padding: 9rem 0;
-        .content{
-         .text-banner{
-             font-size: 2rem;
-             background-color: $--bg-clean-green;
-             padding: 4px 0;
-             }
-         }
-     }
      .logo{
         max-width: 150px;
+    }
+    main{
+        margin-top: 74px;
     }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    .banner{
-        padding: 12rem 0;
-        .content{
-         .text-banner{
-             font-size: 2rem;
-             background-color: $--bg-clean-green;
-             padding: 4px 0;
-             }
-         }
-     }
-     .logo{
+    .logo{
         max-width: 150px;
     }
     main{
@@ -40,13 +20,10 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .banner{
-        padding: 15rem 0;
-        .content{
-            .text-banner{
-                font-size: 2.475rem;
-            }
-        }
+    .banner-bg{
+        background-image: url(../image/banner-bg.png), url(../image/banner-bg-parrents.png);
+        background-position: center, right;
+        background-size: contain ,cover;
     }
     .form-control{
         min-width: 200px!important;
@@ -55,27 +32,31 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .banner{
-        padding: 8rem 0;
-        .content{
-            .text-banner{
-                font-size: 2.775rem;
-            }
-        }
-    }
+    .banner-bg{
+        min-height: 600px;
+        background-color: #F1EFF0;
+        background-position: right, right;
+      }
+      .banner-content{
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+      }
 }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .banner{
-        padding: 10rem 0;
-        .content{
-            .text-banner{
-                font-size: 3.375rem;
-                background-color: transparent;
-            }
+    .banner-bg{
+        min-height: 70vh;
+      }
+      .banner-content{
+        .text-banner{
+            font-size: 3.375rem!important;
         }
-    }
+      }
+      .about-us{
+        padding: 7rem 0 !important;
+      }
     main{
     margin-top: 114px;
     }
@@ -83,15 +64,22 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-    .banner{
-        padding: 15rem 0;
-        .content{
-            .text-banner{
-                font-size: 4.375rem;
-                background-color: transparent;
-            }
+    .banner-bg{
+        min-height: calc(100vh - 114px);
+      }
+      .banner-content{
+        padding-left: 1%!important;
+        .text-banner{
+            font-size: 4.375rem!important;
         }
-    }
+      }
+}
+
+// >-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1600px) {
+      .banner-content{
+        padding-left: 12%!important;
+      }
 }
 
 
