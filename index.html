@@ -70,37 +70,77 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          <div>
+                            <img src="assets/image/organick-website-logo.svg" class="logo" alt="organick-website-logo">
+                          </div>
+                          <div role="button" tabindex="0" class="d-block rounded-pill border py-1 ps-1 pe-3">
+                            <i class="fa-solid fa-cart-shopping text-white bg-dark-blue rounded-circle" style="padding: 12px;"></i>
+                            <span>Cart (0)</span>
+                        </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <form class="d-block" role="search" >
+                                <div class="position-relative">
+                                    <input class="form-control rounded-pill px-4 fs-5 text-dark-blue" type="search" aria-label="Search" style="padding: 9px 0; background-color: #FAFAFA;">
+                                    <i role="button" tabindex="0" class="fa-solid fa-magnifying-glass position-absolute translate-middle top-50 rounded-circle" style="color: #FAFAFA; background-color: #7EB693; right: -15px; padding: 12px;"></i>
+                                </div>
+                            </form>
+                            <ul class="navbar-nav justify-content-end flex-grow-1 p-3">
                             <li class="nav-item">
                               <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
+                              <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                Pages
                               </a>
                               <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                  <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Service</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Team</a></li>
                               </ul>
                             </li>
-                          </ul>
-                          <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                          </form>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-footer font-roboto text-muted m-3">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <span class="fs-6 text-white fw-semibold pe-3 bg-dark-blue rounded-pill"><i class="fa-solid fa-paperclip me-2 text-danger p-2 bg-clean-green rounded-circle"></i>Developer :</span>
+                                <div>
+                                <button class="btn bg-dark-blue text-white border py-1 rounded-pill collapsed" id="developerTalkTurkish" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="developerTalkTurkish">English</button>
+                                </div>
+                            </div>
+                            <div class="my-3" style="min-height: 180px;">
+                              <div class="multi-collapse collapse show" id="developerTalkTurkish">
+                                <div class="card card-body bg-dark-blue text-clean-green">
+                                  <p class="mb-0">Bu web site, <a href="https://getbootstrap.com" target="_blank" class="fw-semibold">Bootstrap</a> ve <a href="https://sass-lang.com" target="_blank" class="fw-semibold">Scss</a> teknolojileri ile figma tasarımından esinlenerek <a href="https://www.mediacurrent.com/blog/pixel-perfection-front-end-development#:~:text=What%20is%20%27pixel%20perfect%27%3F,can%27t%20tell%20the%20difference." target="_blank" class="fw-semibold">Pixel Perfect</a> yapısıyla, sıfırdan oluşturulmuştur. <a href="https://github.com/burakkrt/Organick-Website" target="_blank" class="fw-semibold">Buradan</a> projenin kaynak kodlarını inceleyebilir ve daha fazla ayrıntıya ulaşabilirsiniz.</p>
+                                </div>
+                              </div>
+                              <div class="multi-collapse collapse" id="developerTalkEnglish">
+                                <div class="card card-body bg-clean-green">
+                                  <p class="mb-0">This website has been created from scratch with a <a href="https://www.mediacurrent.com/blog/pixel-perfection-front-end-development#:~:text=What%20is%20%27pixel%20perfect%27%3F,can%27t%20tell%20the%20difference." target="_blank" class="fw-semibold">Pixel Perfect</a> structure inspired by <a href="https://getbootstrap.com" target="_blank" class="fw-semibold">Bootstrap</a> and <a href="https://sass-lang.com" target="_blank" class="fw-semibold">Scss</a> technologies and figma design. <a href="https://github.com/burakkrt/Organick-Website" target="_blank" class="fw-semibold">Here</a> you can review the source code of the project and get more details.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-evenly align-items-center fs-6 fw-semibold mt-3">
+                                <a href="https://github.com/burakkrt" target="_blank" ><i class="fa-brands fa-github me-1"></i>Github</a>
+                                <a href="https://www.linkedin.com/in/kurt-burak/" target="_blank"><i class="fa-brands fa-linkedin me-1"></i>Linkedin</a>
+                                <a href="mailto:krtburak@outlook.com" target="_blank"><i class="fa-solid fa-envelope me-1"></i>Mail</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,15 +148,15 @@
         </div>
     </nav>
     <main>
-        <section class="container-fuild">
-            <div class="banner d-flex flex-row align-items-center" style="background-color: #F1EFF0; background-image: url(assets/image/banner-bg.png), url(assets/image/banner-bg-parrents.png);background-position: right; background-size: contain; background-repeat: no-repeat; background-blend-mode: multiply;">
-                <div class="content container text-center text-lg-start">
-                    <span class="fs-1 d-block yellowtail-title">100% Natural Food</span>
-                    <span class="text-banner fw-bold text-dark-blue font-roboto lh-sm">Choose the best<br>healthier way<br>of life</span>
-                    <div class="mt-4">
-                        <button class="btn btn-warning d-flex flex-row align-items-center gap-2 text-dark-blue fs-6 fw-bold px-3 py-2 px-md-4 py-md-3 rounded-4 mx-auto mx-lg-0">Explore Now<i class="fa-solid fa-circle-arrow-right"></i></button>
-                    </div>
+        <section class="container-fuild position-relative">
+            <div class="banner-content text-center text-lg-start py-5 py-lg-0 ms-lg-5">
+                <span class="fs-1 d-block yellowtail-title">100% Natural Food</span>
+                <span class="text-banner fw-bold text-dark-blue font-roboto lh-sm fs-1">Choose the best<br>healthier way<br>of life</span>
+                <div class="mt-4">
+                    <button class="btn btn-warning d-flex flex-row align-items-center gap-2 text-dark-blue fs-6 fw-bold px-3 py-2 px-md-4 py-md-3 rounded-4 mx-auto mx-lg-0">Explore Now<i class="fa-solid fa-circle-arrow-right"></i></button>
                 </div>
+            </div>
+            <div class="banner-bg">
             </div>
         </section>
         <section class="container mt-spaces">
@@ -139,7 +179,7 @@
         </section>
         <section class="container-fuild mt-spaces bg-light">
             <div
-                class="d-flex flex-column flex-md-row justify-content-center align-items-center px-3 px-xxl-0" style="padding-top: 7rem !important; padding-bottom: 7rem!important;">
+                class="about-us d-flex flex-column flex-md-row justify-content-center align-items-center px-3 px-xxl-0">
                 <div class="" style="max-width: 758px;">
                     <img src="assets/image/about-us.png" class="img-fluid" alt=" Organick About-us image">
                 </div>
@@ -636,11 +676,11 @@
             </div>
         </section>
         <section class="container-fuild">
-            <div class="d-flex flex-column flex-md-row align-items-center justify-content-start p-4 p-md-0">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-start p-3 p-md-0">
                 <div class="" style="z-index: -2;">
                     <img src="assets/image/eco-friendly.jpg" class="img-fluid" alt="Eco Friendly Image">
                 </div>
-                <div class="position-relative" style="max-width: 650px;">
+                <div class="position-relative mt-2 mt-md-0" style="max-width: 650px;">
                     <div class="d-none d-md-block position-absolute bg-white w-25 translate-middle top-50 start-0 rounded-5"
                         style="z-index: -1; left: -70px; height: 130%;">
                     </div>
@@ -722,7 +762,7 @@
                                 25<br>Nov</p>
                         </div>
                         <div
-                            class="d-flex flex-column gap-0 gap-md-1 bg-white rounded-5 mx-4 mt-5 px-4 py-4 p-xxl-5 bg-shadow">
+                            class="d-flex flex-column gap-0 gap-md-1 bg-white rounded-5 mx-2 mx-sm-4 mt-5 px-4 py-4 p-xxl-5 bg-shadow">
                             <span class="d-flex flex-row align-items-center gap-1 text-dark-blue fw-semibold"><i
                                     class="fa-solid fa-user text-yellow"></i>By Rachi Card</span>
                             <div class="text-dark-blue">
@@ -745,7 +785,7 @@
                                 25<br>Nov</p>
                         </div>
                         <div
-                            class="d-flex flex-column gap-0 gap-md-1 bg-white rounded-5 mx-4 mt-5 px-4 py-4 p-xxl-5 bg-shadow">
+                            class="d-flex flex-column gap-0 gap-md-1 bg-white rounded-5 mx-2 mx-sm-4 mt-5 px-4 py-4 p-xxl-5 bg-shadow">
                             <span class="d-flex flex-row align-items-center gap-1 text-dark-blue fw-semibold"><i
                                     class="fa-solid fa-user text-yellow"></i>By Rachi Card</span>
                             <div class="text-dark-blue">
