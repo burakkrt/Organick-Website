@@ -15,9 +15,9 @@
 
 ### Available Scripts
 > It transfers the files with the scss extension in the scss folder to the assets/css/style.css file in a compressed form.
+> Script : "sass scss/main.scss --watch assets/css/style.css --style compressed"
 ```sh
 npm run scss
-"sass scss/main.scss --watch assets/css/style.css --style compressed"
 ```
 > Install linked packages with ``` npm install ``` before using scss.
 
