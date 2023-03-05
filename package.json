@@ -11,6 +11,7 @@
     "node": "^19.6.0"
   },
   "devDependencies": {
+    "prettier": "2.8.4",
     "sass": "^1.58.3"
   },
   "repository": {
