@@ -23,9 +23,8 @@ npm run scss
 
 ### Dependent packages and their versions
 
-- bootstrap: 5.2.3
-- node: 19.6.0
-- sass: 1.58.3
+- [**Bootstrap**](https://getbootstrap.com) 5.2.3
+- [**Sass Scss**](https://sass-lang.com) 1.58.3
 
 ### Images from the project
 
